@@ -1,0 +1,143 @@
+body
+{
+   background-color: #1b2223;
+  
+   
+}
+/***Element styling starts***/
+.parent-1
+{
+    background-color: #0eacf6;
+    margin: auto;
+    margin-top:5%;
+    width: 50%;
+    padding-bottom:100px;
+    box-shadow: 5px 10px 20px #0eacf6;
+    text-align: center;
+    border-radius: 25px;
+    
+}
+.Header
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    text-decoration: underline;
+}
+#counter
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+.add
+{
+    padding: 22px;
+    background-color: azure;
+    font-weight: 700;
+    border: 2px solid #0ef6cc;
+    border-radius: 0px 25px 0px 25px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.add:hover
+{
+    background-color:#0ef6cc;
+    color: azure;
+    border-color: azure;
+}
+#todo
+{
+    padding: 22px;
+    margin-right:20px;
+    margin-top:-2px;
+    background: azure;
+    font-weight: 700;
+    border: 2px solid #0ef6cc;
+    border-radius: 25px 0px 25px 0px;
+    margin-bottom: 20px;
+}
+#thelist
+{
+    position: relative;
+    width: 50%;
+    margin-top: 20px !important;
+    text-align: left;
+    list-style:none;
+    background-color: azure;
+    margin: auto;
+    height: auto;
+    margin-bottom: 100px;
+    border-radius: 25px 25px 0px 0px;
+    border: 3px solid #0ef6cc;
+    
+    
+}
+ul li
+{
+    margin-right:10px !important;
+    margin-left: -30px !important;
+    margin-top:17px;
+    margin-bottom: 10px;
+    height:25px;
+    background-color: #0eacf6;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    animation: 1s ease 0s 1 normal forwards running bling ;
+}
+
+.eradicate
+{
+    
+    position: absolute;
+    text-align: center;
+    right:9px;
+    cursor: pointer;
+    background-color:tomato;
+    padding: 7px 8px 6px 8px;
+    margin-top: -5px;
+    border-radius: 0px 10px 10px 0px;
+    transition: ease-in-out 0.3s;
+}
+.eradicate:hover
+{
+    background-color: maroon;
+}
+.classicalConditioning
+{
+    position: absolute;
+    animation: 1s ease 0s 1 normal forwards running goodjob ;
+}
+#cbx
+{
+    position: absolute;
+    right: 10%;
+    margin-top: 7px;
+}
+.clear
+{
+    padding: 22px;
+    background-color: azure;
+    font-weight: 700;
+    border: 2px solid #0ef6cc;
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.clear:hover
+{
+    background-color:#0ef6cc;
+    color: azure;
+    border-color: azure;
+}
+/*Ketframes for classicalConditioning*/
+@keyframes goodjob
+{
+    from{right:30%}
+    to{right:15%}
+}
+@keyframes bling
+{
+    from{margin-top: -30px;}
+    to{margin-top: 17px;}
+}
